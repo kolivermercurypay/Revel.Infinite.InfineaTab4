@@ -1,0 +1,504 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		459A55EC1836818700FE83A0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 459A55EB1836818700FE83A0 /* Foundation.framework */; };
+		459A55EE1836818700FE83A0 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 459A55ED1836818700FE83A0 /* CoreGraphics.framework */; };
+		459A55F01836818700FE83A0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 459A55EF1836818700FE83A0 /* UIKit.framework */; };
+		459A55F61836818700FE83A0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 459A55F41836818700FE83A0 /* InfoPlist.strings */; };
+		459A55F81836818700FE83A0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 459A55F71836818700FE83A0 /* main.m */; };
+		459A55FC1836818700FE83A0 /* MercuryAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 459A55FB1836818700FE83A0 /* MercuryAppDelegate.m */; };
+		459A55FF1836818700FE83A0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 459A55FD1836818700FE83A0 /* Main.storyboard */; };
+		459A56021836818700FE83A0 /* MercuryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 459A56011836818700FE83A0 /* MercuryViewController.m */; };
+		459A56041836818700FE83A0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 459A56031836818700FE83A0 /* Images.xcassets */; };
+		459A560B1836818700FE83A0 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 459A560A1836818700FE83A0 /* XCTest.framework */; };
+		459A560C1836818700FE83A0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 459A55EB1836818700FE83A0 /* Foundation.framework */; };
+		459A560D1836818700FE83A0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 459A55EF1836818700FE83A0 /* UIKit.framework */; };
+		459A56151836818700FE83A0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 459A56131836818700FE83A0 /* InfoPlist.strings */; };
+		459A56171836818700FE83A0 /* WebServices_InfineaTab4Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 459A56161836818700FE83A0 /* WebServices_InfineaTab4Tests.m */; };
+		459A5622183693E500FE83A0 /* libdtdev.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 459A5621183693E500FE83A0 /* libdtdev.a */; };
+		459A5625183693EF00FE83A0 /* MercuryHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 459A5624183693EF00FE83A0 /* MercuryHelper.m */; };
+		459A56271836A08400FE83A0 /* ExternalAccessory.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 459A56261836A08400FE83A0 /* ExternalAccessory.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		459A560E1836818700FE83A0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 459A55E01836818700FE83A0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 459A55E71836818700FE83A0;
+			remoteInfo = "WebServices-InfineaTab4";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		459A55E81836818700FE83A0 /* WebServices-InfineaTab4.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "WebServices-InfineaTab4.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		459A55EB1836818700FE83A0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		459A55ED1836818700FE83A0 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		459A55EF1836818700FE83A0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		459A55F31836818700FE83A0 /* WebServices-InfineaTab4-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "WebServices-InfineaTab4-Info.plist"; sourceTree = "<group>"; };
+		459A55F51836818700FE83A0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		459A55F71836818700FE83A0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		459A55F91836818700FE83A0 /* WebServices-InfineaTab4-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WebServices-InfineaTab4-Prefix.pch"; sourceTree = "<group>"; };
+		459A55FA1836818700FE83A0 /* MercuryAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MercuryAppDelegate.h; sourceTree = "<group>"; };
+		459A55FB1836818700FE83A0 /* MercuryAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MercuryAppDelegate.m; sourceTree = "<group>"; };
+		459A55FE1836818700FE83A0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		459A56001836818700FE83A0 /* MercuryViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MercuryViewController.h; sourceTree = "<group>"; };
+		459A56011836818700FE83A0 /* MercuryViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MercuryViewController.m; sourceTree = "<group>"; };
+		459A56031836818700FE83A0 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		459A56091836818700FE83A0 /* WebServices-InfineaTab4Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "WebServices-InfineaTab4Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		459A560A1836818700FE83A0 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		459A56121836818700FE83A0 /* WebServices-InfineaTab4Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "WebServices-InfineaTab4Tests-Info.plist"; sourceTree = "<group>"; };
+		459A56141836818700FE83A0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		459A56161836818700FE83A0 /* WebServices_InfineaTab4Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WebServices_InfineaTab4Tests.m; sourceTree = "<group>"; };
+		459A5620183693D800FE83A0 /* DTDevices.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DTDevices.h; sourceTree = "<group>"; };
+		459A5621183693E500FE83A0 /* libdtdev.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libdtdev.a; sourceTree = "<group>"; };
+		459A5623183693EF00FE83A0 /* MercuryHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MercuryHelper.h; sourceTree = "<group>"; };
+		459A5624183693EF00FE83A0 /* MercuryHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MercuryHelper.m; sourceTree = "<group>"; };
+		459A56261836A08400FE83A0 /* ExternalAccessory.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ExternalAccessory.framework; path = System/Library/Frameworks/ExternalAccessory.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		459A55E51836818700FE83A0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				459A56271836A08400FE83A0 /* ExternalAccessory.framework in Frameworks */,
+				459A55EE1836818700FE83A0 /* CoreGraphics.framework in Frameworks */,
+				459A55F01836818700FE83A0 /* UIKit.framework in Frameworks */,
+				459A55EC1836818700FE83A0 /* Foundation.framework in Frameworks */,
+				459A5622183693E500FE83A0 /* libdtdev.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		459A56061836818700FE83A0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				459A560B1836818700FE83A0 /* XCTest.framework in Frameworks */,
+				459A560D1836818700FE83A0 /* UIKit.framework in Frameworks */,
+				459A560C1836818700FE83A0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		459A55DF1836818700FE83A0 = {
+			isa = PBXGroup;
+			children = (
+				459A55F11836818700FE83A0 /* WebServices-InfineaTab4 */,
+				459A56101836818700FE83A0 /* WebServices-InfineaTab4Tests */,
+				459A55EA1836818700FE83A0 /* Frameworks */,
+				459A55E91836818700FE83A0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		459A55E91836818700FE83A0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				459A55E81836818700FE83A0 /* WebServices-InfineaTab4.app */,
+				459A56091836818700FE83A0 /* WebServices-InfineaTab4Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		459A55EA1836818700FE83A0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				459A56261836A08400FE83A0 /* ExternalAccessory.framework */,
+				459A55EB1836818700FE83A0 /* Foundation.framework */,
+				459A55ED1836818700FE83A0 /* CoreGraphics.framework */,
+				459A55EF1836818700FE83A0 /* UIKit.framework */,
+				459A560A1836818700FE83A0 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		459A55F11836818700FE83A0 /* WebServices-InfineaTab4 */ = {
+			isa = PBXGroup;
+			children = (
+				459A5623183693EF00FE83A0 /* MercuryHelper.h */,
+				459A5624183693EF00FE83A0 /* MercuryHelper.m */,
+				459A5621183693E500FE83A0 /* libdtdev.a */,
+				459A5620183693D800FE83A0 /* DTDevices.h */,
+				459A55FA1836818700FE83A0 /* MercuryAppDelegate.h */,
+				459A55FB1836818700FE83A0 /* MercuryAppDelegate.m */,
+				459A55FD1836818700FE83A0 /* Main.storyboard */,
+				459A56001836818700FE83A0 /* MercuryViewController.h */,
+				459A56011836818700FE83A0 /* MercuryViewController.m */,
+				459A56031836818700FE83A0 /* Images.xcassets */,
+				459A55F21836818700FE83A0 /* Supporting Files */,
+			);
+			path = "WebServices-InfineaTab4";
+			sourceTree = "<group>";
+		};
+		459A55F21836818700FE83A0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				459A55F31836818700FE83A0 /* WebServices-InfineaTab4-Info.plist */,
+				459A55F41836818700FE83A0 /* InfoPlist.strings */,
+				459A55F71836818700FE83A0 /* main.m */,
+				459A55F91836818700FE83A0 /* WebServices-InfineaTab4-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		459A56101836818700FE83A0 /* WebServices-InfineaTab4Tests */ = {
+			isa = PBXGroup;
+			children = (
+				459A56161836818700FE83A0 /* WebServices_InfineaTab4Tests.m */,
+				459A56111836818700FE83A0 /* Supporting Files */,
+			);
+			path = "WebServices-InfineaTab4Tests";
+			sourceTree = "<group>";
+		};
+		459A56111836818700FE83A0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				459A56121836818700FE83A0 /* WebServices-InfineaTab4Tests-Info.plist */,
+				459A56131836818700FE83A0 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		459A55E71836818700FE83A0 /* WebServices-InfineaTab4 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 459A561A1836818700FE83A0 /* Build configuration list for PBXNativeTarget "WebServices-InfineaTab4" */;
+			buildPhases = (
+				459A55E41836818700FE83A0 /* Sources */,
+				459A55E51836818700FE83A0 /* Frameworks */,
+				459A55E61836818700FE83A0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "WebServices-InfineaTab4";
+			productName = "WebServices-InfineaTab4";
+			productReference = 459A55E81836818700FE83A0 /* WebServices-InfineaTab4.app */;
+			productType = "com.apple.product-type.application";
+		};
+		459A56081836818700FE83A0 /* WebServices-InfineaTab4Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 459A561D1836818700FE83A0 /* Build configuration list for PBXNativeTarget "WebServices-InfineaTab4Tests" */;
+			buildPhases = (
+				459A56051836818700FE83A0 /* Sources */,
+				459A56061836818700FE83A0 /* Frameworks */,
+				459A56071836818700FE83A0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				459A560F1836818700FE83A0 /* PBXTargetDependency */,
+			);
+			name = "WebServices-InfineaTab4Tests";
+			productName = "WebServices-InfineaTab4Tests";
+			productReference = 459A56091836818700FE83A0 /* WebServices-InfineaTab4Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		459A55E01836818700FE83A0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = Mercury;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Kevin Oliver";
+				TargetAttributes = {
+					459A56081836818700FE83A0 = {
+						TestTargetID = 459A55E71836818700FE83A0;
+					};
+				};
+			};
+			buildConfigurationList = 459A55E31836818700FE83A0 /* Build configuration list for PBXProject "WebServices-InfineaTab4" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 459A55DF1836818700FE83A0;
+			productRefGroup = 459A55E91836818700FE83A0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				459A55E71836818700FE83A0 /* WebServices-InfineaTab4 */,
+				459A56081836818700FE83A0 /* WebServices-InfineaTab4Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		459A55E61836818700FE83A0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				459A56041836818700FE83A0 /* Images.xcassets in Resources */,
+				459A55F61836818700FE83A0 /* InfoPlist.strings in Resources */,
+				459A55FF1836818700FE83A0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		459A56071836818700FE83A0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				459A56151836818700FE83A0 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		459A55E41836818700FE83A0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				459A55FC1836818700FE83A0 /* MercuryAppDelegate.m in Sources */,
+				459A5625183693EF00FE83A0 /* MercuryHelper.m in Sources */,
+				459A56021836818700FE83A0 /* MercuryViewController.m in Sources */,
+				459A55F81836818700FE83A0 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		459A56051836818700FE83A0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				459A56171836818700FE83A0 /* WebServices_InfineaTab4Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		459A560F1836818700FE83A0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 459A55E71836818700FE83A0 /* WebServices-InfineaTab4 */;
+			targetProxy = 459A560E1836818700FE83A0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		459A55F41836818700FE83A0 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				459A55F51836818700FE83A0 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		459A55FD1836818700FE83A0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				459A55FE1836818700FE83A0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		459A56131836818700FE83A0 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				459A56141836818700FE83A0 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		459A56181836818700FE83A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		459A56191836818700FE83A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		459A561B1836818700FE83A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WebServices-InfineaTab4/WebServices-InfineaTab4-Prefix.pch";
+				INFOPLIST_FILE = "WebServices-InfineaTab4/WebServices-InfineaTab4-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/kevinoliver/GitHub/Revel.Infinite.InfineaTab4/WebServices-InfineaTab4/WebServices-InfineaTab4",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		459A561C1836818700FE83A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WebServices-InfineaTab4/WebServices-InfineaTab4-Prefix.pch";
+				INFOPLIST_FILE = "WebServices-InfineaTab4/WebServices-InfineaTab4-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/kevinoliver/GitHub/Revel.Infinite.InfineaTab4/WebServices-InfineaTab4/WebServices-InfineaTab4",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		459A561E1836818700FE83A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/WebServices-InfineaTab4.app/WebServices-InfineaTab4";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WebServices-InfineaTab4/WebServices-InfineaTab4-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "WebServices-InfineaTab4Tests/WebServices-InfineaTab4Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		459A561F1836818700FE83A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/WebServices-InfineaTab4.app/WebServices-InfineaTab4";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WebServices-InfineaTab4/WebServices-InfineaTab4-Prefix.pch";
+				INFOPLIST_FILE = "WebServices-InfineaTab4Tests/WebServices-InfineaTab4Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		459A55E31836818700FE83A0 /* Build configuration list for PBXProject "WebServices-InfineaTab4" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				459A56181836818700FE83A0 /* Debug */,
+				459A56191836818700FE83A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		459A561A1836818700FE83A0 /* Build configuration list for PBXNativeTarget "WebServices-InfineaTab4" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				459A561B1836818700FE83A0 /* Debug */,
+				459A561C1836818700FE83A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		459A561D1836818700FE83A0 /* Build configuration list for PBXNativeTarget "WebServices-InfineaTab4Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				459A561E1836818700FE83A0 /* Debug */,
+				459A561F1836818700FE83A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 459A55E01836818700FE83A0 /* Project object */;
+}

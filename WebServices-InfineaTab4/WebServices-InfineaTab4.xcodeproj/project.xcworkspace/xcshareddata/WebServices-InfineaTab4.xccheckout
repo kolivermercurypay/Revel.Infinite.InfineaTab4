@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>AB797068-61B6-4D7F-873E-B4690A1405D4</string>
+	<key>IDESourceControlProjectName</key>
+	<string>WebServices-InfineaTab4</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>3672CA7C-E7D7-40DF-B21D-55AE16B8EA57</key>
+		<string>https://github.com/kolivermercurypay/Revel.Infinite.InfineaTab4.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>WebServices-InfineaTab4/WebServices-InfineaTab4.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>3672CA7C-E7D7-40DF-B21D-55AE16B8EA57</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/kolivermercurypay/Revel.Infinite.InfineaTab4.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>3672CA7C-E7D7-40DF-B21D-55AE16B8EA57</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>3672CA7C-E7D7-40DF-B21D-55AE16B8EA57</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Revel.Infinite</string>
+		</dict>
+	</array>
+</dict>
+</plist>
